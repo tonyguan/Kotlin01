@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="chapter15_main" target="1.8" />
+      <module name="chapter15_test" target="1.8" />
+      <module name="代码-chapter15_main" target="1.8" />
+      <module name="代码-chapter15_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

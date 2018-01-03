@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter15.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter15_main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter15_main.iml" group="chapter15" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter15_test.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter15_test.iml" group="chapter15" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/代码-chapter15.iml" filepath="$PROJECT_DIR$/.idea/modules/代码-chapter15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/代码-chapter15_main.iml" filepath="$PROJECT_DIR$/.idea/modules/代码-chapter15_main.iml" group="chapter15" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/代码-chapter15_test.iml" filepath="$PROJECT_DIR$/.idea/modules/代码-chapter15_test.iml" group="chapter15" />
+    </modules>
+  </component>
+</project>
