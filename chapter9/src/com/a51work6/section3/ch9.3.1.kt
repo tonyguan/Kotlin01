@@ -15,8 +15,9 @@ fun printArea(width: Double, height: Double): Unit {
 }
 
 fun main(args: Array<String>) {
-    printArea(320.0, 480.0)	//没有采用命名函数调用
-    printArea(width = 320.0, height = 480.0)//采用命名函数调用
-    printArea(320.0, height = 480.0)//采用命名函数调用
+    printArea(320.0, 480.0)    //没有采用命名参数函数调用
+    printArea(width = 320.0, height = 480.0)//采用命名参数函数调用
+    printArea(320.0, height = 480.0)//采用命名函参数数调用
     //printArea(width = 320.0,  480.0) //编译错误
+    printArea(height = 480.0, width = 320.0)//采用命名参数函数调用
 }

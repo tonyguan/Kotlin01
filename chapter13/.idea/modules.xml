@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/chapter13.iml" filepath="$PROJECT_DIR$/chapter13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter13.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter13_main.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter13_main.iml" group="chapter13" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chapter13_test.iml" filepath="$PROJECT_DIR$/.idea/modules/chapter13_test.iml" group="chapter13" />
     </modules>
   </component>
 </project>

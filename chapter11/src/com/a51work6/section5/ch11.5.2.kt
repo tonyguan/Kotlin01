@@ -4,21 +4,44 @@
 * 智捷课堂在线视频：www.zhijieketang.com
 * 智捷课堂微信公共号：zhijieketang
 * 邮箱：eorient@sina.com
-*
+* 
 */
 //代码文件：chapter11/src/com/a51work6/section5/ch11.5.2.kt
 package com.a51work6.section5
 
-fun square(num: Int): Int = num * num
-
 fun main(args: Array<String>) {
-    val n1: Int? = 10 //null
-    //自己进行非空判断
-    if (n1 != null) {
-        println(square(n1))
-    }
-    //使用let函数
-    n1?.let { n -> println(square(n)) }
-    n1?.let { println(square(it)) }
 
+    val map1 = mutableMapOf<Int, String>()
+    val map2 = mutableMapOf(1 to 102, 2 to 360)
+    val map3 = hashMapOf<Long, String>()
+    val map4 = hashMapOf("R" to "Read", "C" to "Create")
+
+    map1.put(102, "张三")
+    map1[105] = "李四"
+    map1[109] = "王五"
+    map1[110] = "董六"
+    //"李四"值重复
+    map1[111] = "李四"
+    //109键已经存在，替换原来值"王五"
+    map1[109] = "刘备"
+
+    // 打印集合元素个数
+    println("集合size = " + map1.size)//5
+    // 打印集合
+    println(map1)//{102=张三, 105=李四, 109=刘备, 110=董六, 111=李四}
+
+    // 删除键值对
+    map1.remove(109)
+    // 判断键集合中是否包含109
+    println("键集合中是否包含109：${map1.containsKey(109)}")//false
+    // 判断值集合中是否包含 "李四"
+    println("值集合中是否包含\"李四\"：${map1.containsValue("李四")}")//true
+
+    // 判断集合是否为空
+    println("集合是空的：" + map2.isEmpty())//false
+
+    // 清空集合
+    map1.clear()
+    // 打印集合
+    println(map1)//{}
 }
